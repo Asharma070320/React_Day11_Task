@@ -131,7 +131,12 @@ const PasswordGen = () => {
             </div>
 
             <div className="generateBtn">
-                <button className='btn' onClick={clickBtn}>Generate Password</button>
+                <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span onClick={clickBtn} class="button-text">Generate PassWord</span>
+                </button>
             </div>
         </div>
 
