@@ -131,11 +131,11 @@ const PasswordGen = () => {
             </div>
 
             <div className="generateBtn">
-                <button class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
+                <button className="learn-more">
+                    <span className="circle" aria-hidden="true">
+                    <span className="icon arrow"></span>
                     </span>
-                    <span onClick={clickBtn} class="button-text">Generate PassWord</span>
+                    <span onClick={clickBtn} className="button-text">Generate PassWord</span>
                 </button>
             </div>
         </div>
